@@ -4,7 +4,7 @@ package Programs;
 
 public class amstrong {
     public static void main(String[] args) {
-        int n=1873;
+        int n=153;
         int sum=0;
         int copy=n;
         while (n!=0)
