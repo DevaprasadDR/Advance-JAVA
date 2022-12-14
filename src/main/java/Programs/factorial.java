@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class factorial {
     public static void main(String[] args) {
-        int fact=1,n;
+        int fact=1;
         System.out.println("Enter the of n");
                 Scanner sc=new Scanner(System.in);
-                n= sc.nextInt();
+                int n= sc.nextInt();
         for (int i=n;i>=1; i--)
         {
             fact=fact*i;
