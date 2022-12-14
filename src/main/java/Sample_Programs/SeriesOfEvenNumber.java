@@ -1,7 +1,7 @@
 /*Author : Kaviya V
 Description: To print the Even numbers in series
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 
