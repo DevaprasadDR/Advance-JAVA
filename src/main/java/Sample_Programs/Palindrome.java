@@ -1,4 +1,4 @@
-package Programs;
+package Sample_Programs;
 
 public class Palindrome {
 

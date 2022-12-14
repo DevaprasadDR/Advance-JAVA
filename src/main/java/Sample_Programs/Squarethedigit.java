@@ -1,6 +1,6 @@
 //Description=sum of square of each digit
 //Author : Kaviya
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

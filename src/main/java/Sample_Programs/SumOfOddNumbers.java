@@ -1,7 +1,7 @@
 /*Author : Kaviya V
 Description: To print the sum of odd number
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

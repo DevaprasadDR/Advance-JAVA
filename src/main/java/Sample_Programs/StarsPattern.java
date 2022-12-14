@@ -1,6 +1,6 @@
 //description= print the stars pattern
 //Author= Deva Prasad
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

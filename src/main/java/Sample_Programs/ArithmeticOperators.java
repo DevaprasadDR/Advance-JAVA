@@ -1,7 +1,7 @@
 /*Author = Deva Prasad
 Description: Perform addition, subtraction,multiplication,division
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

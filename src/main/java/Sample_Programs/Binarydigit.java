@@ -1,7 +1,7 @@
 /*Author = Deva Prasad
 Description: count binary digit in given number
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

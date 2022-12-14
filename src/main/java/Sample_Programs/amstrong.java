@@ -1,7 +1,7 @@
 //description= sum of cube of each digit
 //Author= Deva Prasad
 
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 
