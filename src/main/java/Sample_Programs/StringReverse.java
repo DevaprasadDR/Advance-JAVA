@@ -1,7 +1,7 @@
 /*Author : Kaviya V
 Description: To print reverse string
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class StringReverse {
         System.out.print("Enter a string: ");
         str = sc.nextLine();
         int len = str.length();
-        for (int i = len; i > 0; --i) {
+        for (int i = len; i > 0; i--) {
             System.out.print(str.charAt(i - 1));
         }
     }

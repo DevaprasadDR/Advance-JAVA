@@ -1,7 +1,7 @@
 /*Author : Kaviya V
 Description: To find larger among two number
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

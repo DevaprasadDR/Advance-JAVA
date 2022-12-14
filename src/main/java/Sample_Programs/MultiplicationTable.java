@@ -1,7 +1,7 @@
 /*Author = Deva Prasad
 Description:  Print Multiplication Table
  */
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 

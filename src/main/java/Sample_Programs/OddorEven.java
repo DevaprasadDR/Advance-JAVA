@@ -2,7 +2,7 @@
 Description: To find Odd or Even
  */
 
-package Programs;
+package Sample_Programs;
 
 import java.util.Scanner;
 
