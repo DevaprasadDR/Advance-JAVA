@@ -11,7 +11,10 @@ public class MultiplicationTable {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter number:");
         int n=s.nextInt();
-        for(int i=1; i <= 10; i++)
+        Scanner s1 = new Scanner(System.in);
+        System.out.print("Enter value");
+        int y=s1.nextInt();
+        for(int i=1; i <= y; i++)
         {
             System.out.println(n+" * "+i+" = "+n*i);
         }
