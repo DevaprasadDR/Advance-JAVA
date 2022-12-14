@@ -1,3 +1,6 @@
+/*Author : Kaviya V
+Description: To print right side triangle
+ */
 package Programs;
 
 import java.util.Scanner;
