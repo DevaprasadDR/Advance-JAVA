@@ -5,7 +5,7 @@ package Programs;
 
 import java.util.Scanner;
 
-public class SumOfAddNumbers {
+public class SumOfOddNumbers {
     public static void main(String[] args) {
         int number1,number2,sum=0;
         Scanner sc=new Scanner(System.in);
