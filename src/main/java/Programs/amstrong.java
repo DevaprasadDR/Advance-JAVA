@@ -1,12 +1,18 @@
-//sum of cube of each digit
+//description= sum of cube of each digit
+//Author= Deva Prasad
 
 package Programs;
 
+import java.util.Scanner;
+
 public class amstrong {
     public static void main(String[] args) {
-        int n=153;
-        int sum=0;
+        int n = 0,sum=0;
         int copy=n;
+        System.out.println("Enter the of n");
+        Scanner sc=new Scanner(System.in);
+         n= sc.nextInt();
+        
         while (n!=0)
         {
             int rem=n%10;
