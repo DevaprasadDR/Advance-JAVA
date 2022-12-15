@@ -20,6 +20,6 @@ public class ArithmeticOperators {
 
         System.out.println("Num1 * Num2 = " + (Num1 * Num2));// multiplication
 
-        System.out.println("Num1 / Num2 = " + (Num1 / Num2));// division
+        System.out.println("Num1 / Num2 = " +(float) Num1 / Num2);// division
     }
 }
