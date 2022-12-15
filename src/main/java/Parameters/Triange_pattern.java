@@ -1,16 +1,11 @@
+/*Author= Deva Prasad
+Description= Print the Triangle Pattern with parameters
+ */
 package Parameters;
 
 import java.util.Scanner;
 
 public class Triange_pattern {
-
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the row");
-        int row = sc.nextInt();
-        triangle(row);
-    }
     static void triangle(int row)
     {
         int i,j;
@@ -23,5 +18,11 @@ public class Triange_pattern {
             System.out.println();
         }
 
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the row");
+        int row = sc.nextInt();
+        triangle(row);
     }
 }
