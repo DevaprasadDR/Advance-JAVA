@@ -1,9 +1,7 @@
-package ExcelReader;
-import java.io.FileInputStream;
+package ExcelUtility;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -37,7 +35,7 @@ public class WriteOperation {
             row4.createCell(2).setCellFormula("A4/B4");
 
 
-            FileOutputStream file = new FileOutputStream("C:\\Users\\sathiyapriya.s\\IdeaProjects\\Advance-JAVA\\src\\Datafile\\WriteMethod.xlsx");
+            FileOutputStream file = new FileOutputStream("src/Datafile/WriteMethod.xlsx");
             workbook.write(file);
             file.close();
             System.out.println("WriteMethod file is created with Formula cell");
