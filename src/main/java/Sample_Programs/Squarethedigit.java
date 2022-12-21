@@ -1,5 +1,5 @@
 //Description=sum of square of each digit
-//Author : Kaviya
+//Author : Devaprasad
 package Sample_Programs;
 
 import java.util.Scanner;
