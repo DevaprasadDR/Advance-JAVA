@@ -1,4 +1,4 @@
-package ExcelReader;
+package ExcelUtility;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -8,9 +8,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 
-public class Reader {
+public class ExcelReader {
     public static void main(String[] args) throws IOException {
-        String excelFilepath ="C:\\Users\\sathiyapriya.s\\IdeaProjects\\Advance-JAVA\\src\\Datafile\\Book 4 - Copy.xlsx" ;
+        String excelFilepath ="src/datafiles/Addition.xlsx" ;
 
 
         FileInputStream file = new FileInputStream(excelFilepath);
