@@ -7,18 +7,18 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 public class Read {
-    public static void main(String[] args) {
+     static void data() {
         try (InputStream inp = new FileInputStream("C:\\Users\\Kaviya.V\\IdeaProjects\\Advanced_Java\\Advance-JAVA\\src\\datafiles\\ReadData.xlsx" + "")) {
             Workbook wb = WorkbookFactory.create(inp);
             Sheet sheet = wb.getSheetAt(0);
             Scanner sc1 = new Scanner(System.in);
-            System.out.println("Enter the row");
-            Row row = sheet.getRow(sc1.nextInt());
+            System.out.println("Enter x");
+            Row x = sheet.getRow(sc1.nextInt());
             Scanner sc2 = new Scanner(System.in);
-            System.out.println("cell number are: ");
-            Cell cell = row.getCell(sc2.nextInt());
-            if (cell != null)
-                System.out.println("Data: "+cell);
+            System.out.println("Enter y: ");
+            Cell y = x.getCell(sc2.nextInt());
+            if (y != null)
+                System.out.println("Data: "+y);
             else
                 System.out.println("Cell is empty");
         }catch(Exception e) {
