@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class reader {
+public class Writenumber {
     public static void main(String[] args) throws IOException {
 
         XSSFWorkbook workbook = new XSSFWorkbook();
@@ -18,7 +18,7 @@ public class reader {
         int n = sc.nextInt();
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter the row");
-        //int row=sc1.nextInt();
+
 
         XSSFRow row1 = sheet.createRow(sc1.nextInt());
         Scanner sc2 = new Scanner(System.in);
