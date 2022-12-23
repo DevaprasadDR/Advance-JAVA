@@ -1,16 +1,10 @@
 package ExcelWriter;
 
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
-import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.Scanner;
 
 
-public class TestCase extends ExcelUtilities {
-    public static void main(String [] args) throws IOException {
+public class TestCase_DevaPrasad extends ExcelUtilities {
+    public static void main(String [] args) throws Exception {
 
         ExcelUtilities objExcelFile = new ExcelUtilities();
         Scanner sc = new Scanner(System.in);
