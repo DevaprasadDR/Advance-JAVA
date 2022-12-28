@@ -17,7 +17,16 @@ public class ExcelUtilities {
         FileOutputStream file = new FileOutputStream("src/Datafile/"+fileName+".xlsx");
         workbook.write(file);
     }
-    public void writeExcelString(String filename, String sheetname, int RowNumber,int ColumnNumber,int Value) throws IOException {
+    public void writeExcelString(String filename, String sheetname, int RowNumber,int ColumnNumber,String Value) throws IOException {
+        XSSFWorkbook workbook = new XSSFWorkbook();
+        XSSFSheet sheet = workbook.createSheet(sheetname);
+        XSSFRow rownum = sheet.createRow(RowNumber);
+        rownum.createCell(ColumnNumber).setCellValue(Value);
+        FileOutputStream output_file =new FileOutputStream("src/Datafile/" + filename + ".xlsx");
+        workbook.write(output_file);
+    }
+
+    public void writeExcelInteger(String filename, String sheetname, int RowNumber,int ColumnNumber,int Value) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet(sheetname);
         XSSFRow rownum = sheet.createRow(RowNumber);
