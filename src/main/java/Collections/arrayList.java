@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class arrayList {
     public static void main(String[] args) {
-        ArrayList <Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of index");
         int num = sc.nextInt();
@@ -20,7 +20,9 @@ public class arrayList {
         list.add(sc1.nextInt());
         System.out.println(list);
     }
-
 }
+
+
+
 
 

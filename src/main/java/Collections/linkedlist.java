@@ -10,7 +10,7 @@ public  class linkedlist {
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
         Scanner sc = new Scanner(System.in);
-        System.out.println("how many elements do you want to store");
+        System.out.println("how many strings do you want to store");
 
         int n = sc.nextInt();
         for (int i = 0; i < n; i++) {
