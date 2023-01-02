@@ -44,7 +44,7 @@ public class ExcelUtilities {
 
     public String readExcel(String filename, String sheetname, int RowNumber,int ColumnNumber) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
-        FileInputStream file = new FileInputStream("src/Datafile/" + filename + ".xlsx");
+        FileInputStream file = new FileInputStream("src/datafiles/" + filename + ".xlsx");
         XSSFSheet sheet = workbook.getSheet(sheetname);
         XSSFRow rownum = sheet.getRow(RowNumber);
         String Value=rownum.getCell(ColumnNumber).getStringCellValue();
