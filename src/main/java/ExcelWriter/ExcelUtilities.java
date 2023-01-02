@@ -21,7 +21,9 @@ public class ExcelUtilities {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet(sheetname);
         XSSFRow rownum = sheet.createRow(RowNumber);
-        rownum.createCell(ColumnNumber).setCellValue(Value);
+        for (int j=0;j<=10;j++) {
+            rownum.createCell(ColumnNumber).setCellValue(Value);
+        }
         FileOutputStream output_file =new FileOutputStream("src/Datafile/" + filename + ".xlsx");
         workbook.write(output_file);
     }

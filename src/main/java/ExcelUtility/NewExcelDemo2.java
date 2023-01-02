@@ -1,4 +1,4 @@
-package ExcelReader;
+package ExcelUtility;
 
 import com.sun.tools.javac.Main;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -19,7 +19,7 @@ public class NewExcelDemo2 {
         XSSFSheet sheet = workbook.createSheet("Numbers");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of Strings you want to store: ");
-        int n = sc.nextInt();
+        int data = sc.nextInt();
         Scanner sc1 = new Scanner(System.in);
         System.out.println("Enter the row");
         //int row=sc1.nextInt();
@@ -30,7 +30,7 @@ public class NewExcelDemo2 {
 
         String[] array = new String[10];
         System.out.println("Enter the Strings to store in a cell: ");
-        for (int i = 0; i < n ; i++) {
+        for (int i = 0; i < data ; i++) {
 
             array[i] = String.valueOf(sc.next());
         }
@@ -38,7 +38,7 @@ public class NewExcelDemo2 {
             System.out.println("cell numbers are: ");
 
             //System.out.println(array[i]);
-            for (int i = 0; i < n; i++) {
+            for (int i = 0; i < data; i++) {
                 row1.createCell(sc1.nextInt()).setCellValue(array[i]);
             }
 
