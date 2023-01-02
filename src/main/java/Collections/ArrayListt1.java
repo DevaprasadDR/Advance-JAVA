@@ -15,7 +15,7 @@ public class ArrayListt1 {
             System.out.println(list);
 
             Scanner sc1 = new Scanner(System.in);
-            System.out.println("Which index do you want to add");
+            System.out.println("Which index do you want to add : ");
             list.add(sc1.nextInt());
             System.out.println(list);
         }

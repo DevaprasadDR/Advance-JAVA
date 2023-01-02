@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 
-    public  class linkedlistAdd {
+    public  class linkedlisttAdd {
 
 
         public static void main(String[] args) {
