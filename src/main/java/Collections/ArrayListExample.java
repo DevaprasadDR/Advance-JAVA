@@ -16,14 +16,8 @@ public class ArrayListExample {
         al.add(2, "Grapes");
         al.add("JackFruit");
         al.remove("Banana");
-        System.out.println("After adding duplicate element, ArrayList insertion order ");
+        System.out.println("After adding and removing element, ArrayList insertion order ");
 
-      /* Iterator<String> itr = al.iterator();
-        while(itr.hasNext())
-        {
-            String str = itr.next();
-            System.out.println(str);
-        }*/
         for(String value:al){
             System.out.println(value);
         }

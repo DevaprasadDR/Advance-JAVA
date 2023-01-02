@@ -3,7 +3,7 @@ package Collections;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Demo {
+public class ArrayListExample1 {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
