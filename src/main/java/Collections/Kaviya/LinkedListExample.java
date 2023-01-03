@@ -1,8 +1,7 @@
-package Collections;
+package Collections.Kaviya;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Scanner;
 
 public class LinkedListExample {
     public static void main(String[] args) {
