@@ -1,4 +1,4 @@
-package Collections;
+package Collections.Kaviya;
 
 import java.util.LinkedList;
 import java.util.Scanner;
