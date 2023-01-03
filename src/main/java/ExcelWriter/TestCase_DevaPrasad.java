@@ -7,7 +7,7 @@ public class TestCase_DevaPrasad extends ExcelUtilities {
     public static void main(String [] args) throws Exception {
 
         ExcelUtilities objExcelFile = new ExcelUtilities();
-        objExcelFile.createExcel("ww","data");
+        objExcelFile.createExcel("excel", "hello1");
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements you want to store: ");
         int n = sc.nextInt();
@@ -17,6 +17,7 @@ public class TestCase_DevaPrasad extends ExcelUtilities {
         Scanner sc2 = new Scanner(System.in);
         int[] array = new int[10];
         System.out.println("Enter the data to store in a cell: ");
+
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
         }
@@ -26,10 +27,11 @@ public class TestCase_DevaPrasad extends ExcelUtilities {
             int b = sc2.nextInt();
 
 
-           // for (int j = 0; j < n; j++) {
-                objExcelFile.writeExcelInteger("excel", "hello1", a, b, array[i]);
+            // for (int j = 0; j < n; j++) {
+            objExcelFile.writeExcelInteger("excel", "hello1", a, b, array[i]);
+            //objExcelFile.writeExcelInteger("excel",);
 
-           // }
+            // }
         }
 
     }
