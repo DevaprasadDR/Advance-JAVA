@@ -1,10 +1,12 @@
 package Collections.Sathiyapriya;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ArrayList {
+public class ArrayList1 {
     public static void main(String[] args) {
-        java.util.ArrayList<Integer> list = new java.util.ArrayList<Integer>();
+
+        ArrayList<Integer> list = new ArrayList<Integer>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the numbers");
         int num = sc.nextInt();
