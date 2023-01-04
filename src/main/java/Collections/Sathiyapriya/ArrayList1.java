@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayList1 {
     public static void main(String[] args) {
 
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the numbers");
         int num = sc.nextInt();
