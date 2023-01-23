@@ -1,4 +1,4 @@
-package Collections.Kaviya;
+package Collections.Devaprasad;
 
 import java.util.LinkedList;
 import java.util.Scanner;
