@@ -1,9 +1,7 @@
-package Collections;
+package Collections.Kaviya;
 
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Scanner;
 
 public class ArrayListExample {
     public static void main(String[] args) {
