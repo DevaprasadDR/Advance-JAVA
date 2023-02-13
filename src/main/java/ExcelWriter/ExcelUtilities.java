@@ -16,12 +16,15 @@ public class ExcelUtilities {
     public void createExcel(String fileName,String sheetname) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet(sheetname);
+        int row = 0;
+        XSSFRow rownum = sheet.createRow(row++);
         FileOutputStream file = new FileOutputStream("src/Datafile/"+fileName+".xlsx");
         workbook.write(file);
     }
     public void writeExcelString(String filename, String sheetname, int RowNumber,int ColumnNumber,String Value) throws IOException {
         XSSFWorkbook workbook = new XSSFWorkbook();
         XSSFSheet sheet = workbook.createSheet(sheetname);
+        int lastRowCount =sheet.getLastRowNum();
         XSSFRow rownum = sheet.createRow(RowNumber);
         for (int j=0;j<=10;j++) {
             rownum.createCell(ColumnNumber).setCellValue(Value);
